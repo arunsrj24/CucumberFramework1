@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features="src/test/java/features", glue="stepDefinitionClass", monochrome=true,
-dryRun=false,tags="@PlaceOrder", 
+dryRun=false,tags="@OfferPage", 
 plugin= {"html:target/cucumber.html","json:target/cucumber.json"
 		}
 )
